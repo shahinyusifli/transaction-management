@@ -1,0 +1,12 @@
+{
+  "postgres_url": "jdbc:postgresql://localhost:5436/transactions",
+  "postgres_user": "postgres",
+  "postgres_pwd" : "password",
+  "postgres_bronze": "bronze.transactions",
+  "postgres_silver": "silver.transactions",
+  "postgres_gold": "gold.transactions_by_max_money",
+  "spark_master": "local[*]",
+  "postgres_driver_jar" : "/usr/local/spark/resources/jars/postgresql-9.4.1207.jar",
+  "csv_data" : "/usr/local/spark/resources/data/transactions.csv"
+}
+
