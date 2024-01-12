@@ -1,7 +1,7 @@
 import pytest
 from pyspark.sql import SparkSession
 from pyspark.sql.functions import col
-from transformation_job import TransformationJob, HelperUtils 
+from spark.src.app.transform_job import TransformationJob, HelperUtils 
 
 @pytest.fixture(scope="session")
 def spark():
